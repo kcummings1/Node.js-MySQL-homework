@@ -18,22 +18,23 @@ CREATE TABLE products (
 SELECT * FROM products;
 
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Fish Comb", "Sporting",20.00 ,25 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("String Cheese Peeler", "Kitchen",5.00 ,10 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Noodle Splash Face Guard", "Kitchen",10.99 ,4 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Big Toe Scratcher", "bath",11.00 ,7 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Elbow Shiner w/ rag", "bath",15.00 ,3 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Single Noodle Holder", "Kitchen",45.99 ,3 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Hover light", "Bed",55.99 ,10 );
 INSERT INTO products (product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Boat Rack", "Sporting", 799.99 , 125 );
 INSERT INTO products (Product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Water Vest w/ goldfish", "Fashion",134.99 ,15 );
 INSERT INTO products (Product_name,department_name,price,stock_quantity)
-VALUES ("", "", , );
+VALUES ("Celery Gun", "Weapon",41.99 ,12 );
+
