@@ -1,0 +1,24 @@
+{
+  "name": "Node.js-MySQL-homework",
+  "version": "1.0.0",
+  "description": "[![Image from Gyazo](https://i.gyazo.com/99732b05945458c388b8e497cd5ba234.png)](https://gyazo.com/99732b05945458c388b8e497cd5ba234)",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcummings1/Node.js-MySQL-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcummings1/Node.js-MySQL-homework/issues"
+  },
+  "homepage": "https://github.com/kcummings1/Node.js-MySQL-homework#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  }
+}
