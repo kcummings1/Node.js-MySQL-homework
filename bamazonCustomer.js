@@ -47,3 +47,21 @@ var displayProducts = function() {
 }
 
 
+var buyProduct = function () {
+    console.log("-----------");
+    inquirer.prompt([prompts.productIDPrompt, prompts.numberOfUnitsPrompt])
+    .then (function (answers) {
+        var query = "SELECT item_id, stock_quantity, price FROM proucts WHERE ?";
+        connection.query(query, {
+            itme_id: answers.productID
+        }, function (error, results) {
+            if (results.length === 0) {
+
+                console.log("--------");
+                console.log("\nProduct Id not found\n");
+                buyProduct();
+        } else if (result.length > 0) {
+            
+        }
+    })
+}
