@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/kcummings1/Node.js-MySQL-homework#readme",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "inquirer": "^7.0.0",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "require": "^2.4.20"
   }
 }
